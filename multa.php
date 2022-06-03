@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Multa</title>
 </head>
+
 <body>
     <div>
         <form method="POST" action="<?= $_SERVER['PHP_SELF']; ?>">
@@ -17,18 +18,22 @@
             <br>
             <br>
             <label for="User">Velocidade maxima da rua:</label>
-            <input type="text" name="velrua" placeholder="KM" required>
+            <input type="number" name="velrua" placeholder="KM" required>
             <br>
             <br>
             <label for="User">Velocidade que o motorista estava:</label>
-            <input type="text" name="velmot" placeholder="KM" required>
+            <input type="number" name="velmot" placeholder="KM" required>
             <br>
             <br>
             <input type="submit" name="multa" value="Calcular Multa">
-            <input type="submit" name="relatorio" value="Relatório de multas">
+        </form>
+        <form method="POST" action="<?= $_SERVER['PHP_SELF']; ?>">
+            <input type="hidden" name="relatorio" value="true" />
+            <input type="submit" value="Relatório de multas" />
         </form>
     </div>
 </body>
+
 </html>
 <?php
     $velocidaderua = !empty($_POST['velrua']) ? $_POST['velrua'] : 0;
@@ -86,6 +91,7 @@
             fclose($fp);
         }
         function leitura(){
+
             echo "<h5>Relatório de multas</h5>";
             $fp = fopen('registros.txt', "r");
             while(!feof($fp)){

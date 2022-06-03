@@ -1,0 +1,9 @@
+Placa: 1010101010101010   Rua: Rua A  Velocidade da rua: 50 Km  Velocidade do motorista: 61 Km  Multa: R$100
+Placa: 1010101010101010   Rua: Rua B  Velocidade da rua: 50 Km  Velocidade do motorista: 80 Km  Multa: R$100
+Placa: asdasdasd   Rua: Rua C  Velocidade da rua: 50 Km  Velocidade do motorista: 80,01 Km  Multa: R$100
+Placa: asdasdasd   Rua: Rua C  Velocidade da rua: 50 Km  Velocidade do motorista: 80,01 Km  Multa: R$100
+Placa: 1010101010101010   Rua: Rua A  Velocidade da rua: 50 Km  Velocidade do motorista: 81 Km  Multa: R$200
+Placa: 1010101010101010   Rua: Rua B  Velocidade da rua: 50 Km  Velocidade do motorista: 60 Km  Multa: R$50
+Placa: 1010101010101010   Rua: Rua C  Velocidade da rua: 50 Km  Velocidade do motorista: 70 Km  Multa: R$100
+Placa:    Rua:   Velocidade da rua:  Km  Velocidade do motorista:  Km  Multa: R$0
+Placa:    Rua:   Velocidade da rua:  Km  Velocidade do motorista:  Km  Multa: R$0
